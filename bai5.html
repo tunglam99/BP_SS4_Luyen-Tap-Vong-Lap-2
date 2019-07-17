@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tongTien = parseInt(prompt("nhap so tien cho vay: "));
+    let soThang = parseInt(prompt("nhap so thang cho vay: "));
+    let laiSuat = parseInt(prompt("nhap lai 1 thang: "));
+    for (let i =1; i<= soThang; i++) {
+        tongTien += (i*laiSuat);
+    }
+    alert(tongTien);
+</script>
+</body>
+</html>

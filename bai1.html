@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let a=b=1;
+    let count=2;
+    document.write(a+"<br>"+b+"<br>");
+    let kt=true;
+    while (kt){
+        document.write(a+b+"<br>");
+        let total=a+b;
+        a=b;
+        b=total;
+        count++;
+        if (count==20) kt=false;
+    }
+</script>
+
+</body>
+</html>
